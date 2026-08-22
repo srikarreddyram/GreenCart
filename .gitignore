@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment — never commit real Supabase credentials
+.env
+.env.local
+.env.*.local
+
+# Captured auth/API responses (these contain live access & refresh tokens)
+curl_output.txt
+login_test.txt
+login_test_pass123.txt
+signup_pass123.txt
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
+*.log
